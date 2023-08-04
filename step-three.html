@@ -1,0 +1,178 @@
+<!--------------------------------------------------------------------------------
+-----website developed with love by Seas------------------------------------------
+-----more works in my github: https://github.com/sebastiancarvallo ---------------
+--------------------------------------------------------------------------------->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="FruitCard es tu tarjeta saludable, aprovecha increibles descuentos y premios exclusivos para una vida saludable.">
+    <meta name="keywords" content="fruit, card, fruta, tarjeta, descuentos, vida, saludable, premios, puntos, debito, digital">
+    <!--style-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <!--script font awesome-->
+    <script src="https://kit.fontawesome.com/81e9b7fc07.js" crossorigin="anonymous"></script>
+    <title>FruitCard</title>
+</head>
+<body class="body--product01">
+    <!---------------------------------------------------------------------------------------------
+    ------------------------------------------header desktop---------------------------------------
+    ---------------------------------------------------------------------------------------------->
+    <header class="row header_desktop">
+    <div class="responsive head">
+        <!--logo-->
+        <article class="logo">
+            <a href="index.html"><img src="assets/img/logo.svg" alt="logo"></a>
+        </article>
+        <!--menu-->
+        <article class="menu">
+            <nav>
+                <ul>
+                    <li><a href="index.html#about">Acerca</a></li>
+                    <li><a href="index.html#products">Productos</a></li>
+                    <li><a href="index.html#benefits">Beneficios</a></li>
+                    <li>
+                        <!--login button-->
+                        <button>
+                            <a href="#">Ingresar</a>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </article>
+    </div>
+    </header>
+    <!---------------------------------------------------------------------------------------------
+    ------------------------------------------header mobile----------------------------------------
+    ---------------------------------------------------------------------------------------------->
+    <header class="row header_mobile">
+        <!--logo-->
+        <section class="logo_mobile">
+            <a href="index.html"><img src="assets/img/logo.svg" alt="logo"></a>
+        </section>
+        <!--menu sidenav-->
+        <nav class="menu_mobile">
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">
+                <i class="fa-solid fa-bars"></i>
+            </span>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="index.html#about">Acerca <i class="fa-solid fa-circle-info"></i></a>
+                <a href="index.html#products" class="special_menu_mobile">Productos <i class="fa-solid fa-credit-card"></i></a>
+                <a href="index.html#benefits">Beneficios <i class="fa-solid fa-hand-holding-heart"></i></a>
+                <a href="#" class="login_mobile">Ingresar <i class="fa-solid fa-right-to-bracket"></i></a>
+            </div>
+        </nav>
+    </header>
+    <!---------------------------------------------------------------------------------------------
+    ------------------------------------------content----------------------------------------------
+    ---------------------------------------------------------------------------------------------->
+    <main class="row back--product01 main--final">
+        <section class="responsive product">
+            <!--info product-->
+            <article class="info_product info_product--step3">
+                <!--img-->
+                <div class="image">
+                    <img src="assets/img/cherry_card.svg" alt="Cherry Card">
+                </div>
+                <!--info-->
+                <div class="info">
+                    <h1>Cherry Card</h1>
+                    <p>Con Cherry Card acumularas puntos con cada compra que hagas, los que podrás canjear por increíbles premios. Además, tiene descuentos exclusivos en las mejores tiendas y comercios. No esperes más y solicita tu Cherry Card hoy mismo. ¡Te encantará!</p>
+                </div>
+                <!--others-->
+                <div class="others">
+                    <h4>Otros de nuestros productos</h4>
+                    <div>
+                        <a href="#"><img src="assets/img/lemon_card.svg" alt="Lemon Card"></a>
+                        <a href="#"><img src="assets/img/orange_card.svg" alt="Orange Card"></a>
+                    </div>
+                </div>
+            </article>
+            <!--form product-->
+            <article class="form_product final_step">
+                <!--menu step-->
+                <nav class="row menu-step">
+                    <!--back-->
+                    <div class="back">
+                        <a href="step-two.html">
+                            <p class="title">Volver</p>
+                            <p>atrás</p>
+                        </a>
+                    </div>
+                    <!--step title-->
+                    <div class="step-page">
+                    </div>
+                </nav>
+                <!--message-->
+                <h2>Estas a punto de<br>acceder a un mundo<br>de posibilidades <img src="assets/img/smile03.png" alt="smile"></h2>
+                <p>¿Deseas continuar?</p>
+                <!--button continue-->
+                <form form action="congrat.html" class="row-vertical form-card form-card--confirm">
+                    <p class="terms"><input type="checkbox" name="" id="" class="check" required> Aceptar <a href="#" class="terms">Términos y condiciones</a></p>
+                    <p><input type="submit" value="Continuar"></p>
+                </form>
+            </article>
+        </section>
+    </main>
+    <!---------------------------------------------------------------------------------------------
+    --------------------------------------------footer---------------------------------------------
+    ---------------------------------------------------------------------------------------------->
+    <footer>
+        <section class="row responsive">
+            <article class="logo_footer">
+                <!--logo footer-->
+                <img src="assets/img/logo.svg" alt="logo">
+                <!--social-->
+                <h4>Síguenos en</h4>
+                <ul>
+                    <li><a href="#"><img src="" alt=""><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="#"><img src="" alt=""><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#"><img src="" alt=""><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><img src="" alt=""><i class="fa-brands fa-youtube"></i></a></li>
+                    <li><a href="#"><img src="" alt=""><i class="fa-solid fa-envelope"></i></a></li>
+                </ul>
+            </article>
+            <!--menu footer-->
+            <article class="menu_footer">
+                <ul>
+                    <li><a href="#">Ingresar</a></li>
+                    <li><a href="#">Registrarse</a></li>
+                    <li><a href="#">Condiciones Legales</a></li>
+                    <li><a href="#">Preguntas Frecuentes</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">Acerca</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Beneficios</a></li>
+                </ul>
+            </article>
+        </section>
+        <section class="row responsive">
+            <!--copyright-->
+            <article class="copy">
+                <p>Sitio web © 2023 ALL RIGHTS RESERVED</p>
+            </article>
+            <!--author-->
+            <article class="author">
+                <p>made with <img src="assets/img/love_icon.svg" alt="love" class="love"> by Seas <a href="https://www.behance.net/scarvallo" target="_blank"><img src="assets/img/logo_seas.svg" alt="seas" class="seas"></a></p>
+            </article>
+        </section>
+    </footer>
+    <!---------------------------------------------------------------------------------------------
+    ------------------------------------------scripts----------------------------------------------
+    ---------------------------------------------------------------------------------------------->
+
+    <!--script soft scroll-->
+    <script src="js/soft_scroll.js" crossorigin="anonymous"></script>
+
+    <!--Script Sidenav-->
+    <script src="js/sidenav.js" crossorigin="anonymous"></script>
+
+</body>
+</html>

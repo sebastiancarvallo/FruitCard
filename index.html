@@ -1,0 +1,277 @@
+<!--------------------------------------------------------------------------------
+-----website developed with love by Seas------------------------------------------
+-----more works in my github: https://github.com/sebastiancarvallo ---------------
+--------------------------------------------------------------------------------->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="FruitCard es tu tarjeta saludable, aprovecha increibles descuentos y premios exclusivos para una vida saludable.">
+    <meta name="keywords" content="fruit, card, fruta, tarjeta, descuentos, vida, saludable, premios, puntos, debito, digital">
+    <!--style-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <!--script font awesome-->
+    <script src="https://kit.fontawesome.com/81e9b7fc07.js" crossorigin="anonymous"></script>
+
+    <title>FruitCard</title>
+</head>
+<body>
+    <!---------------------------------------------------------------------------------------------
+    ------------------------------------------header desktop---------------------------------------
+    ---------------------------------------------------------------------------------------------->
+    <header class="row header_desktop">
+    <div class="responsive head">
+        <!--logo-->
+        <article class="logo">
+            <a href="#up"><img src="assets/img/logo.svg" alt="logo"></a>
+        </article>
+        <!--menu-->
+        <article class="menu">
+            <nav>
+                <ul>
+                    <li><a href="#about">Acerca</a></li>
+                    <li><a href="#products">Productos</a></li>
+                    <li><a href="#benefits">Beneficios</a></li>
+                    <li>
+                        <!--login button-->
+                        <button>
+                            <a href="#">Ingresar</a>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </article>
+    </div>
+    </header>
+    <!---------------------------------------------------------------------------------------------
+    ------------------------------------------header mobile----------------------------------------
+    ---------------------------------------------------------------------------------------------->
+    <header class="row header_mobile">
+        <!--logo-->
+        <section class="logo_mobile">
+            <a href="#up"><img src="assets/img/logo.svg" alt="logo"></a>
+        </section>
+        <!--menu sidenav-->
+        <nav class="menu_mobile">
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">
+                <i class="fa-solid fa-bars"></i>
+            </span>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#up">Home</a>
+                <a href="#about">Acerca</a>
+                <a href="#products" class="special_menu_mobile">Productos</a>
+                <a href="#benefits">Beneficios</a>
+                <a href="#" class="login_mobile">Ingresar <i class="fa-solid fa-right-to-bracket"></i></a>
+            </div>
+        </nav>
+    </header>
+    <!---------------------------------------------------------------------------------------------
+    ------------------------------------------content----------------------------------------------
+    ---------------------------------------------------------------------------------------------->
+    <main>
+        <!--big banner-->
+        <div id="up"></div>
+        <section class="row responsive big_banner">
+            <!--info-->
+            <article class="info">
+                <h1>Tu tarjeta<br>saludable</h1>
+                <p>FruitCard cuida de tu salud y la de tu bolsillo, con ella podrás acceder a un mundo de ofertas exclusivas y canjear puntos obtenidos por cada compra realices.</p>
+                <button><a href="#products">Obtenla</a></button>
+            </article>
+            <!--img-->
+            <article class="image">
+                <img src="assets/img/back_banner_hero.png" alt="tu tarjeta saludable">
+            </article>
+        </section>
+        
+        <!--about-->
+        <div id="about"></div>
+        <section class="about">
+            <!--intro-->
+            <article class="about-intro">
+                <h2>¿Qué es FruitCard?</h2>
+                <p>FruitCard es la tarjeta débito que llega a simplificar tu vida financiera y apoyar tus hábitos saludables. Podrás pagar tus compras en cualquier establecimiento sin costos de mantenimiento ni comisiones. Además, puedes sacar dinero gratis en más de 40.000 cajeros automáticos en Chile y el resto del mundo, y con cada compra acumulas Fruit Points que puedes canjear por geniales premios.</p>
+            </article>
+            <!--item about-->
+            <article class="row responsive item">
+                <div class="info">
+                    <h2>La tarjeta<br>definitiva</h2>
+                    <p>FruitCard es diversa como el sabor de tus frutas preferidas y segura como ninguna otra. Otorga beneficios a tu salud, ya que puedes acumular Fruit Points que puedes canjear por productos saludables y ecológicos. FruitCard es la tarjeta que te cuida y te hace feliz.</p>
+                </div>
+                <div class="image">
+                    <img src="assets/img/about_01.png" alt="tarjeta definitiva">
+                </div>
+            </article>
+            <!--item about-->
+            <article class="row responsive item item_special">
+                <div class="info">
+                    <h2>Sin cargos<br>fantasmas</h2>
+                    <p>FruitCard no te genera cargos fantasmas porque es una tarjeta transparente y honesta. Con FruitCard, puedes ver el detalle de todas tus compras y el saldo de tus puntos frutales en cualquier momento. Además, FruitCard no tiene comisiones ocultas ni costos adicionales. Fruitcard es la tarjeta que te respeta y te protege. </p>
+                </div>
+                <div class="image">
+                    <img src="assets/img/about_02.png" alt="sin cargos fantasmas">
+                </div>
+            </article>
+            <!--item about-->
+            <article class="row responsive item">
+                <div class="info">
+                    <h2>Beneficios<br>exclusivos</h2>
+                    <p>Con FruitCard, puedes acceder a descuentos exclusivos en comercios saludables asociados. Además, puedes acumular puntos por cada compra que hagas y canjearlos por exquisitos regalos. FruitCard es más que una tarjeta, es una forma de vivir más sano y feliz. ¿Qué esperas para solicitar la tuya? 😊</p>
+                </div>
+                <div class="image">
+                    <img src="assets/img/about_03.png" alt="beneficios exclusivos">
+                </div>
+            </article>
+        </section>
+
+        <!--products-->
+        <div id="products"></div>
+        <section class="row responsive products">
+            <!--card product-->
+            <article>
+                <div class="box_card box_card--cherry">
+                    <!--img-->
+                    <div class="image">
+                        <img src="assets/img/cherry_card.svg" alt="Cherry Card">
+                    </div>
+                    <!--info-->
+                    <div class="info">
+                        <h2>Cherry Card</h2>
+                        <p>Con Cherry Card acumularas puntos con cada compra que hagas, los que podrás canjear por increíbles premios. Además, tiene descuentos exclusivos en las mejores tiendas y comercios. No esperes más y solicita tu Cherry Card hoy mismo. ¡Te encantará! </p>
+                    </div>
+                </div>
+                <!--button-->
+                <button>
+                    <a href="step-one.html">Obtenla</a>
+                </button>
+            </article>
+            <!--card product-->
+            <article>
+                <div class="box_card box_card--lemon">
+                    <!--img-->
+                    <div class="image">
+                        <img src="assets/img/lemon_card.svg" alt="Lemon Card">
+                    </div>
+                    <!--info-->
+                    <div class="info">
+                        <h2>Lemon Card</h2>
+                        <p>Lemon Card es una tarjeta que ofrece las mejores ofertas y promociones en tus tiendas favoritas. Puedes pagar de forma rápida y segura, y disfrutar de beneficios exclusivos como cashback, sorteos y regalos. No lo dudes más y solicita tu Lemon Card ahora mismo. ¡Te sorprenderá!</p>
+                    </div>
+                </div>
+                <!--button-->
+                <button class="button--secondary">
+                    <a href="#">Obtenla</a>
+                </button>
+            </article>
+            <!--card product-->
+            <article>
+                <div class="box_card box_card--orange">
+                    <!--img-->
+                    <div class="image">
+                        <img src="assets/img/orange_card.svg" alt="Orange Card">
+                    </div>
+                    <!--info-->
+                    <div class="info">
+                        <h2>Orange Card</h2>
+                        <p>Orange Card es una tarjeta que te permite acceder a una red de comercios afiliados, donde podrás disfrutar de precios especiales y servicios personalizados. También podrás participar en programas de fidelización, donde podrás obtener beneficios como puntos, millas eco friendly y cupones.</p>
+                    </div>
+                </div>
+                <!--button-->
+                <button class="button--tertiary">
+                    <a href="#">Obtenla</a>
+                </button>
+            </article>
+        </section>
+
+        <!--benefits-->
+        <div id="benefits"></div>
+        <h2 class="row text-center title_benefits">Beneficios exclusivos</h2>
+            <section class="row responsive benefits">
+                <!--card benefits-->
+                <article class="card--points">
+                    <img src="assets/img/fruit_point.png" alt="Fruit Points">
+                    <div class="info">
+                        <h3>Fruit points</h3>
+                        <p>Cada compra que realices acumula Fruit points, los cuales puedes canjear por productos saludables y ecológicos, como tambien por millas eco friendly.</p>
+                    </div>
+                </article>
+                <!--card benefits-->
+                <article class="card--sale">
+                    <img src="assets/img/sale.png" alt="Descuentos">
+                    <div class="info">
+                        <h3>Descuentos</h3>
+                        <p>Obtén descuentos exclusivos en comercios saludables asociados, contamos con una amplia red de establecimientos adheridos a la causa.</p>
+                    </div>
+                </article>
+                <!--card benefits-->
+                <article class="card--promo">
+                    <img src="assets/img/promo.png" alt="Promociones">
+                    <div class="info">
+                        <h3>Promociones</h3>
+                        <p>¡Debes estar atento! Constantemente realizamos promociones mediantes nuestros FruitCodes limitados, con ellos accederas a ¡descuentos super exclusivos!.</p>
+                    </div>
+                </article>
+            </section>
+    </main>
+
+    <!---------------------------------------------------------------------------------------------
+    --------------------------------------------footer---------------------------------------------
+    ---------------------------------------------------------------------------------------------->
+    <footer>
+        <section class="row responsive">
+            <article class="logo_footer">
+                <!--logo footer-->
+                <img src="assets/img/logo.svg" alt="logo">
+                <!--social-->
+                <h4>Síguenos en</h4>
+                <ul>
+                    <li><a href="#"><img src="" alt=""><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="#"><img src="" alt=""><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#"><img src="" alt=""><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><img src="" alt=""><i class="fa-brands fa-youtube"></i></a></li>
+                    <li><a href="#"><img src="" alt=""><i class="fa-solid fa-envelope"></i></a></li>
+                </ul>
+            </article>
+            <!--menu footer-->
+            <article class="menu_footer">
+                <ul>
+                    <li><a href="#">Ingresar</a></li>
+                    <li><a href="#">Registrarse</a></li>
+                    <li><a href="#">Condiciones Legales</a></li>
+                    <li><a href="#">Preguntas Frecuentes</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">Acerca</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Beneficios</a></li>
+                </ul>
+            </article>
+        </section>
+        <section class="row responsive">
+            <!--copyright-->
+            <article class="copy">
+                <p>Sitio web © 2023 ALL RIGHTS RESERVED</p>
+            </article>
+            <!--author-->
+            <article class="author">
+                <p>made with <img src="assets/img/love_icon.svg" alt="love" class="love"> by Seas <a href="https://www.behance.net/scarvallo" target="_blank"><img src="assets/img/logo_seas.svg" alt="seas" class="seas"></a></p>
+            </article>
+        </section>
+    </footer>
+    <!---------------------------------------------------------------------------------------------
+    ------------------------------------------scripts----------------------------------------------
+    ---------------------------------------------------------------------------------------------->
+    <!--script soft scroll-->
+    <script src="js/soft_scroll.js" crossorigin="anonymous"></script>
+
+    <!--Script Sidenav-->
+    <script src="js/sidenav.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
